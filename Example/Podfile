@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TCLDistributeSDK_Example' do
+  pod 'TCLDistributeSDK', :path => '../'
+
+  target 'TCLDistributeSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
