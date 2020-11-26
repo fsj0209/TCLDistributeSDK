@@ -18,6 +18,8 @@
 		F41DBC8C22B80CB8F399526D3BC56544 /* Pods-TCLDistributeSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFF4E66554F49EC9898E6D233504721 /* Pods-TCLDistributeSDK_Example-dummy.m */; };
 		F61E2CCB256FA93A00F2A45B /* TCLObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F61E2CC9256FA93A00F2A45B /* TCLObjc.h */; };
 		F61E2CCC256FA93A00F2A45B /* TCLObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = F61E2CCA256FA93A00F2A45B /* TCLObjc.m */; };
+		F64FE380256FB062005C5E6D /* TCLObjc2.h in Headers */ = {isa = PBXBuildFile; fileRef = F64FE37E256FB062005C5E6D /* TCLObjc2.h */; };
+		F64FE381256FB062005C5E6D /* TCLObjc2.m in Sources */ = {isa = PBXBuildFile; fileRef = F64FE37F256FB062005C5E6D /* TCLObjc2.m */; };
 		FE002CA1BD186A3D613800D44863A7A4 /* TCLDistributeSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8156F03CC7BF86E9A96194A59B8AA1C4 /* TCLDistributeSDK-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		F28D940A6D63F36073EF15B5CAB6E4C0 /* TCLDistributeSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TCLDistributeSDK.modulemap; sourceTree = "<group>"; };
 		F61E2CC9256FA93A00F2A45B /* TCLObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCLObjc.h; path = TCLDistributeSDK/Classes/TCLObjc.h; sourceTree = "<group>"; };
 		F61E2CCA256FA93A00F2A45B /* TCLObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCLObjc.m; path = TCLDistributeSDK/Classes/TCLObjc.m; sourceTree = "<group>"; };
+		F64FE37E256FB062005C5E6D /* TCLObjc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCLObjc2.h; path = TCLDistributeSDK/Classes/TCLObjc2.h; sourceTree = "<group>"; };
+		F64FE37F256FB062005C5E6D /* TCLObjc2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCLObjc2.m; path = TCLDistributeSDK/Classes/TCLObjc2.m; sourceTree = "<group>"; };
 		FAB84904840A39BD56C489F55D6C3ED4 /* Pods-TCLDistributeSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TCLDistributeSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +132,8 @@
 				14D70F1C5928D5D0F66355191CC4CE73 /* ReplaceMe.m */,
 				F61E2CC9256FA93A00F2A45B /* TCLObjc.h */,
 				F61E2CCA256FA93A00F2A45B /* TCLObjc.m */,
+				F64FE37E256FB062005C5E6D /* TCLObjc2.h */,
+				F64FE37F256FB062005C5E6D /* TCLObjc2.m */,
 				A8CBFE1D5586A634D23BD6901F042789 /* Pod */,
 				FF1CBFB0DC0B34B0F18C17A522CC0B3B /* Support Files */,
 			);
@@ -245,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61E2CCB256FA93A00F2A45B /* TCLObjc.h in Headers */,
+				F64FE380256FB062005C5E6D /* TCLObjc2.h in Headers */,
 				E2065037ADA17EDF455EB9A0D2FED491 /* TCLDistributeSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64FE381256FB062005C5E6D /* TCLObjc2.m in Sources */,
 				4F514604E22234003707D3B9ED58ED98 /* ReplaceMe.m in Sources */,
 				F61E2CCC256FA93A00F2A45B /* TCLObjc.m in Sources */,
 				FE002CA1BD186A3D613800D44863A7A4 /* TCLDistributeSDK-dummy.m in Sources */,
