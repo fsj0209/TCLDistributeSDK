@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		00547E9B9A3B251779734106 /* Pods-TCLDistributeSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCLDistributeSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TCLDistributeSDK_Tests/Pods-TCLDistributeSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A25446F489C667D8A8B73B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		0E0EE42C8B05C74670AFB316 /* TCLDistributeSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCLDistributeSDK.podspec; path = ../TCLDistributeSDK.podspec; sourceTree = "<group>"; };
-		467D8E6A767FA63B1C592115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0A25446F489C667D8A8B73B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0E0EE42C8B05C74670AFB316 /* TCLDistributeSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCLDistributeSDK.podspec; path = ../TCLDistributeSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		467D8E6A767FA63B1C592115 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TCLDistributeSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCLDistributeSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -183,7 +183,6 @@
 				00547E9B9A3B251779734106 /* Pods-TCLDistributeSDK_Tests.debug.xcconfig */,
 				F908D1715F8AB0C4B2890C95 /* Pods-TCLDistributeSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Pods_TCLDistributeSDK_Example {
+  umbrella header "Pods-TCLDistributeSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

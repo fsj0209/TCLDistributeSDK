@@ -1,0 +1,16 @@
+PODS:
+  - TCLDistributeSDK (0.1.0)
+
+DEPENDENCIES:
+  - TCLDistributeSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TCLDistributeSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCLDistributeSDK: 45ea85e2c9dc6b0a0492bf73145b469edf43f687
+
+PODFILE CHECKSUM: 452a62b95b8be0222ce815069cc117e64de78fa0
+
+COCOAPODS: 1.10.0.beta.2

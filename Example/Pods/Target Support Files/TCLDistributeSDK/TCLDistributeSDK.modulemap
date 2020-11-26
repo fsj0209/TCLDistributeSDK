@@ -1,0 +1,6 @@
+framework module TCLDistributeSDK {
+  umbrella header "TCLDistributeSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
